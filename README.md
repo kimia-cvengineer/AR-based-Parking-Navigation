@@ -49,7 +49,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Leverages the routing data result of the map component and integrates it with an AR interface
     - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
- <img src="/Illustrations/PSDet%20Architecture.png" alt="3D heading arrows are placed along the way using waypoints" height="400">
+  <img src="/Illustrations/PSDet%20Architecture.png" alt="3D heading arrows are placed along the way using waypoints" height="400">
 
 * Server
    - Facilitates data transfer between the parking space detection module and the user’s device
