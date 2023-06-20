@@ -41,12 +41,16 @@ The proposed system is comprised of five major components. A Smart Parking Space
 * Map and Routing
 
    - Determines the optimal route to the closest available parking spot
-   - Relies on the Mapbox Navigation SDK which offers a range of features including route calculation and turn-by-turn instructions
+   - Relies on the Mapbox Navigation SDK, which offers a range of features including route calculation and turn-by-turn instructions
    - Leverages the waypoints associated with each step to incorporate visual cues and create an interactive real-time route guidance experience
 
      <img src="/Illustrations/PSDet%20Architecture.png" alt="Model Architecture" height="400">
 
-* AR-based Interactive Navigation 
+* AR-based Interactive Navigation
+    - Sends real-time directions and guidance through an immersive AR experience
+    - Allow users to follow directional arrows, virtual signage, and dynamic path indicators projected onto their smartphone
+    - Leverages the routing data result of the map component and integrates it with an AR interface
+    - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location 
 
 * Server
    - Facilitates data transfer between the parking space detection module and the user’s device
