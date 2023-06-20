@@ -1,12 +1,9 @@
 # Enhancing Urban Mobility via AR Location-based Parking Navigation System
-<!-- <p align="center"> -->
-<img src="/Illustrations/PSDet%20Architecture.png" alt="Model Architecture" height="400">
-<!-- </p> -->
 
 In this repository, we provide:
 - Codes to reproduce all of our results
-- Talk about its limitations in real-time content attahement for navigation using ARCore Geospatial API
-- [Project report](Project%20Report.pdf) that describes all the methods used in the developement of this project
+- Talk about its limitations in real-time content attachment for navigation using ARCore Geospatial API
+- [Project report](Project%20Report.pdf) that describes all the methods used in the development of this project
 
 
 ## Introduction
@@ -18,7 +15,7 @@ In this repository, we provide:
 
 The proposed system is comprised of five major components. A Smart Parking Space Detector, a Coordinate System Mapping, a Map and Routing component, an AR-based Interactive Navigation component, and a Server. The system pipeline is demonstrated below.
 
-<img src="/Illustrations/PSDet%20Architecture.png" alt="Model Architecture" height="400">
+<img src="/Illustrations/PSDet%20Architecture.png" alt="System Pipeline" height="400">
 
 * Smart Parking Space Detector
 
@@ -50,7 +47,8 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Sends real-time directions and guidance through an immersive AR experience
     - Allow users to follow directional arrows, virtual signage, and dynamic path indicators projected onto their smartphone
     - Leverages the routing data result of the map component and integrates it with an AR interface
-    - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location 
+    - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
+    - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination 
 
 * Server
    - Facilitates data transfer between the parking space detection module and the user’s device
