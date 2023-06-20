@@ -24,7 +24,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Uses camera-based Machine Learning methods
    - Images are captured from an overhead CCTV camera
  
-     <img src="/Illustrations/PSDet%20Architecture.png" alt="Model Architecture" height="400">
+  <img src="/Illustrations/PSDet%20Architecture.png" alt="Predictions Visualization" height="400">
    
 * Coordinate System Mapping
 
@@ -33,7 +33,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Uses camera calibration method to find a transformation matrix
    - Obtains Google Earth's geographic information for parking spots in a parking lot
  
-     <img src="/Illustrations/PSDet%20Architecture.png" alt="Model Architecture" height="400">
+  <img src="/Illustrations/PSDet%20Architecture.png" alt="Parking Lot View on Google Earth" height="400">
    
 * Map and Routing
 
@@ -41,14 +41,15 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Relies on the Mapbox Navigation SDK, which offers a range of features including route calculation and turn-by-turn instructions
    - Leverages the waypoints associated with each step to incorporate visual cues and create an interactive real-time route guidance experience
 
-     <img src="/Illustrations/PSDet%20Architecture.png" alt="Model Architecture" height="400">
+ <img src="/Illustrations/PSDet%20Architecture.png" alt="Waypoints of a route provided by Mapbox SDK" height="400">
 
 * AR-based Interactive Navigation
     - Sends real-time directions and guidance through an immersive AR experience
     - Allow users to follow directional arrows, virtual signage, and dynamic path indicators projected onto their smartphone
     - Leverages the routing data result of the map component and integrates it with an AR interface
     - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
-    - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination 
+    - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
+ <img src="/Illustrations/PSDet%20Architecture.png" alt="3D heading arrows are placed along the way using waypoints" height="400">
 
 * Server
    - Facilitates data transfer between the parking space detection module and the user’s device
