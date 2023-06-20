@@ -41,7 +41,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Relies on the Mapbox Navigation SDK, which offers a range of features including route calculation and turn-by-turn instructions
    - Leverages the waypoints associated with each step to incorporate visual cues and create an interactive real-time route guidance experience
 
- <img src="/Illustrations/PSDet%20Architecture.png" alt="Waypoints of a route provided by Mapbox SDK" height="400">
+  <img src="/Illustrations/PSDet%20Architecture.png" alt="Waypoints of a route provided by Mapbox SDK" height="400">
 
 * AR-based Interactive Navigation
     - Sends real-time directions and guidance through an immersive AR experience
