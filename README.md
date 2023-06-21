@@ -55,14 +55,15 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
     </br>
-    | ![scr1](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Navigation%20Sample%201.jpg "scr1") | ![scr2](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Destination%20-%20Parking%20Sign.jpg "scr2") |
+    | ![Navigation Sample 1](/Images/Navigation%20Sample%201.jpg "scr1") | ![Destination - Parking Sign](/Images/Destination%20-%20Parking%20Sign.jpg "scr2") |
+    | ------------ | ------------ |
 
 * **Server**
    - Facilitates data transfer between the parking space detection module and the user’s device
    - Is responsible for processing and mapping prediction results obtained from the detection component
    - Sends the global location of the closest available parking spot to the user’s device for downstream tasks
    - Leverages the Flask framework to ensure smooth communication
-   - Uses AWS web service for module deployement
+   - Uses AWS web service for module deployment
    - Uses Nginx web server to manage incoming HTTP requests and Unicorn3 for process handling 
      
 <!--
