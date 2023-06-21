@@ -78,11 +78,11 @@ Some screenshots of the application during interactive navigation are demonstrat
 
 <!-- <img src="/Images/Navigation%20Sample%202.jpg" alt="Navigation Sample 2" height="300"> -->   
 
-# Limitations
+## Limitations
 
 The experiments conducted to evaluate the proposed system have provided valuable insights. While the system generally performs well in accurately placing visual cues and providing interactive driving guidance, there are challenges related to reliability and stability, particularly in localization and object placement. The limitations of VPS technology in highways and roads, as well as high-speed driving scenarios, also highlight the need for further improvement.
     
-# Citation
+## Citation
 
 ```bibtex
 @misc{kimia2023arbased,
