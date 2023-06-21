@@ -54,7 +54,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
-    | ![Navigation Sample 1](/Images/Navigation%20Sample%201.jpg) | ![Destination - Parking Sign](/Images/Destination%20-%20Parking%20Sign.jpg) |
+    | <img src="/Images/Navigation%20Sample%201.jpg" alt="Navigation Sample 1" height="600"> | <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="600"> |
     | ------------ | ------------ |
 
 * **Server**
