@@ -26,7 +26,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Images are captured from an overhead CCTV camera
 
    </br>
-  <img src="/Images/Predictions%20Visualization.png" alt="Predictions Visualization" height="300">
+  <img src="/Images/Predictions%20Visualiztion.png" alt="Predictions Visualization" height="300">
    
 * **Coordinate System Mapping**
 
