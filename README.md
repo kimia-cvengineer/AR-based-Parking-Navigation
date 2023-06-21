@@ -74,7 +74,7 @@ Some screenshots of the application during interactive navigation are demonstrat
 
 | ![alt text](/Images/App%20Main%20Page.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg) | ![alt text](/Images/Destination%20-%20Parking%20Sign.jpg) |
 | ------------ | ------------ | ------------ | ------------ |
-| Image 1      | Image 2      | Image 3      | Image 4      |
+| App Main Page | Sample Navigation 1 | Sample Navigation 2 | Destination Marker Placement |
 
    
    
