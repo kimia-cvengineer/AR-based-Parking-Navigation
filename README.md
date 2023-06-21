@@ -54,8 +54,8 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
-    | <img src="/Images/Navigation%20Sample%201.jpg" alt="Navigation Sample 1" height="600"> | <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="600"> |
-    | ------------ | ------------ |
+    </br>
+    <img src="/Images/Navigation%20Sample%201%20-%20cropped.jpg" alt="Navigation Sample 1" height="550">
 
 * **Server**
    - Facilitates data transfer between the parking space detection module and the user’s device
@@ -65,14 +65,17 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Uses AWS web service for module deployment
    - Uses Nginx web server to manage incoming HTTP requests and Unicorn3 for process handling 
      
-<!--
-## Inference and Visualization
 
-To run inference on the trained model and get the prediction, run [main.py](main.py). It gets the model predictions given an image and draw predictions on the images to visualize the outputs. 
+## Results
 
-| ![alt text](/Illustrations/prediction_visualiztion_sample_img1.png) | ![alt text](/Illustrations/prediction_visualiztion_sample_img2.png) |
-| ------------ | ------------ |
--->
+Some screenshots of the application during the interactive navigation are demonstrated below.
+
+| <img src="/Images/App%20Main%20Page" alt="App Main Page" height="550"> | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path" alt="Interactive route navigation – curved path" height="550"> |
+    | ------------ | ------------ |
+    | <img src="/Images/Navigation%20Sample%202" alt="Navigation Sample 2" height="300"> |
+    | ------------ | ------------ |
+    | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path" alt="Navigation Sample 1" height="550"> | <img src="/Images/Destination%20-%20Parking%20Sign" alt="Destination - Parking Sign" height="550"> |
+    | ------------ | ------------ |
 # Citation
 
 ```bibtex
