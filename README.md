@@ -70,7 +70,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
 
 Some screenshots of the application during interactive navigation are demonstrated below.
 
-   <img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Interactive route navigation – curved path" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Interactive route navigation – straight path" height="500"> &nbsp; <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="500">
+   <!--<img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Interactive route navigation – curved path" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Interactive route navigation – straight path" height="500"> &nbsp; <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="500">-->
 
    | ![alt text](/Images/App%20Main%20Page.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg) | ![alt text](/Images/Destination%20-%20Parking%20Sign.jpg) |
    | ------------ | ------------ |
