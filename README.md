@@ -15,6 +15,7 @@ In this repository, we provide:
 
 The proposed system is comprised of five major components. A Smart Parking Space Detector, a Coordinate System Mapping, a Map and Routing component, an AR-based Interactive Navigation component, and a Server. The system pipeline is demonstrated below.
 
+
 <img src="/Images/System%20pipeline.png" alt="System Pipeline" height="300">
 
 * Smart Parking Space Detector
@@ -23,7 +24,8 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Classifies the occupancy of each spot
    - Uses camera-based Machine Learning methods
    - Images are captured from an overhead CCTV camera
- 
+
+
   <img src="/Images/Predictions%20Visualization.png" alt="Predictions Visualization" height="300">
    
 * Coordinate System Mapping
@@ -32,6 +34,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Establishes a connection between Smart Parking Space Detector's local coordinate system and the global geographic coordinate system (latitude and longitude)
    - Uses camera calibration method to find a transformation matrix
    - Obtains Google Earth's geographic information for parking spots in a parking lot
+
  
   <img src="/Images/Parking%20lot%20-%20Camera%20calibration.png" alt="Parking Lot View on Google Earth" height="300">
    
@@ -41,6 +44,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Relies on the Mapbox Navigation SDK, which offers a range of features including route calculation and turn-by-turn instructions
    - Leverages the waypoints associated with each step to incorporate visual cues and create an interactive real-time route guidance experience
 
+
   <img src="/Images/Mapbox%20waypoints.png" alt="Waypoints of a route provided by Mapbox SDK" height="300">
 
 * AR-based Interactive Navigation
@@ -49,6 +53,8 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Leverages the routing data result of the map component and integrates it with an AR interface
     - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
+ 
+    - 
   <img src="/Imagees/Navigation%20Sample%201.jpg" alt="3D heading arrows are placed along the way using waypoints" height="300">
 
 * Server
