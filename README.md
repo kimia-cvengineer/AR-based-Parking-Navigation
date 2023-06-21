@@ -72,8 +72,10 @@ Some screenshots of the application during interactive navigation are demonstrat
 
    <!--<img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Interactive route navigation – curved path" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Interactive route navigation – straight path" height="500"> &nbsp; <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="500">-->
 
-| ![alt text](/Images/App%20Main%20Page.jpg img1) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg img2) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg img3) | ![alt text](/Images/Destination%20-%20Parking%20Sign.jpg img4) |
-| ------------ | ------------ |
+| ![alt text](/Images/App%20Main%20Page.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg) | ![alt text](/Images/Destination%20-%20Parking%20Sign.jpg) |
+| ------------ | ------------ | ------------ | ------------ |
+| Image 1      | Image 2      | Image 3      | Image 4      |
+
    
    
    <!--<img src="/Images/Navigation%20Sample%202.jpg" alt="Navigation Sample 2" height="300">-->
