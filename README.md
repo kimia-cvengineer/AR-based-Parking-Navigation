@@ -72,7 +72,7 @@ Some screenshots of the application during the interactive navigation are demons
 
    | <img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" height="550"> | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Interactive route navigation – curved path" height="550"> |
     | ------------ | ------------ |
-    | <img src="/Images/Navigation%20Sample%202" alt="Navigation Sample 2" height="300"> |
+    | <img src="/Images/Navigation%20Sample%202.jpg" alt="Navigation Sample 2" height="300"> |
     | ------------ | ------------ |
     | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Interactive route navigation – straight path" height="550"> | <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="550"> |
     | ------------ | ------------ |
