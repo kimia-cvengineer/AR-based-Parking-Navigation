@@ -55,7 +55,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
     </br>
-    <img src="/Images/Navigation%20Sample%201%20-%20cropped.jpg" alt="Navigation Sample 1" height="250">
+    <img src="/Images/Navigation%20Sample%201%20-%20cropped.jpg" alt="Navigation Sample 1" height="300">
 
 * **Server**
    - Facilitates data transfer between the parking space detection module and the user’s device
@@ -70,11 +70,11 @@ The proposed system is comprised of five major components. A Smart Parking Space
 
 Some screenshots of the application during the interactive navigation are demonstrated below.
 
-| <img src="/Images/App%20Main%20Page" alt="App Main Page" height="550"> | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path" alt="Interactive route navigation – curved path" height="550"> |
+    <!--| <img src="/Images/Navigation%20Sample%202" alt="Navigation Sample 2" height="300"> |
+    | ------------ | ------------ |-->
+   | <img src="/Images/App%20Main%20Page" alt="App Main Page" height="550"> | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path" alt="Interactive route navigation – curved path" height="550"> |
     | ------------ | ------------ |
-    | <img src="/Images/Navigation%20Sample%202" alt="Navigation Sample 2" height="300"> |
-    | ------------ | ------------ |
-    | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path" alt="Navigation Sample 1" height="550"> | <img src="/Images/Destination%20-%20Parking%20Sign" alt="Destination - Parking Sign" height="550"> |
+    | <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path" alt="Interactive route navigation – straight path" height="550"> | <img src="/Images/Destination%20-%20Parking%20Sign" alt="Destination - Parking Sign" height="550"> |
     | ------------ | ------------ |
 # Citation
 
