@@ -55,7 +55,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
     </br>
-    <img src="/Images/Navigation%20Sample%201%20-%20cropped.jpg" alt="Navigation Sample 1" height="550">
+    <img src="/Images/Navigation%20Sample%201%20-%20cropped.jpg" alt="Navigation Sample 1" height="250">
 
 * **Server**
    - Facilitates data transfer between the parking space detection module and the user’s device
