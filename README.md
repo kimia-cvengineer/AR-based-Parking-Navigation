@@ -25,7 +25,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Uses camera-based Machine Learning methods
    - Images are captured from an overhead CCTV camera
 
-</br>
+   </br>
   <img src="/Images/Predictions%20Visualization.png" alt="Predictions Visualization" height="300">
    
 * Coordinate System Mapping
