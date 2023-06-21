@@ -35,7 +35,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
    - Uses camera calibration method to find a transformation matrix
    - Obtains Google Earth's geographic information for parking spots in a parking lot
 
- </br>
+    </br>
   <img src="/Images/Parking%20lot%20-%20Camera%20calibration.png" alt="Parking Lot View on Google Earth" height="300">
    
 * Map and Routing
