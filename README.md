@@ -75,23 +75,24 @@ Some screenshots of the application during interactive navigation are demonstrat
 <table style="table-layout: fixed; width: 100%;">
   <tr>
     <td style="text-align: center; width: 25%;">
-      <img src="/Images/App%20Main%20Page.jpg" alt="App Main Page">
+      <img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" style="width: 100%;">
       <p>App Main Page</p>
     </td>
     <td style="text-align: center; width: 25%;">
-      <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Curved Path Navigation">
+      <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Curved Path Navigation" style="width: 100%;">
       <p>Curved Path Navigation</p>
     </td>
     <td style="text-align: center; width: 25%;">
-      <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Straight Path Navigation">
+      <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Straight Path Navigation" style="width: 100%;">
       <p>Straight Path Navigation</p>
     </td>
     <td style="text-align: center; width: 25%;">
-      <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination Marker Placement">
+      <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination Marker Placement" style="width: 100%;">
       <p>Destination Marker Placement</p>
     </td>
   </tr>
 </table>
+
 
 
 <!-- <img src="/Images/Navigation%20Sample%202.jpg" alt="Navigation Sample 2" height="300"> -->   
