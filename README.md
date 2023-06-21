@@ -55,7 +55,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
     </br>
-    | ![scr1](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Navigation%20Sample%201.jp "scr1") | ![scr2](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Destination%20-%20Parking%20Sign.jpg "scr2") |
+    | ![scr1](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Navigation%20Sample%201.jpg "scr1") | ![scr2](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Destination%20-%20Parking%20Sign.jpg "scr2") |
 
 * **Server**
    - Facilitates data transfer between the parking space detection module and the user’s device
