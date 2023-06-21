@@ -54,9 +54,7 @@ The proposed system is comprised of five major components. A Smart Parking Space
     - Places heading arrows along the way at every waypoint in the current step, which is close to the user’s location
     - Attaches a parking visual marker pointing to the parking spot when the driver reaches the destination
 
-    </br>
-    | ![Navigation Sample 1](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/Parking%20lot%20-%20Camera%20calibration.png) | ![Destination - Parking Sign](https://github.com/kimiaf1998/AR-based-Parking-Navigation/blob/master/Images/System%20pipeline.png) |
-    <!--| ![Navigation Sample 1](/Images/Navigation%20Sample%201.jpg) | ![Destination - Parking Sign](/Images/Destination%20-%20Parking%20Sign.jpg) |-->
+    | ![Navigation Sample 1](/Images/Navigation%20Sample%201.jpg) | ![Destination - Parking Sign](/Images/Destination%20-%20Parking%20Sign.jpg) |
     | ------------ | ------------ |
 
 * **Server**
