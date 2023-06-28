@@ -71,34 +71,18 @@ The proposed system is comprised of five major components. A Smart Parking Space
 Some screenshots of the application during interactive navigation are demonstrated below.
 
    <!--<img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Interactive route navigation – curved path" height="500"> &nbsp; <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Interactive route navigation – straight path" height="500"> &nbsp; <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination - Parking Sign" height="500">-->
-
-<table style="table-layout: fixed; width: 100%;">
-  <tr>
-    <td style="text-align: center; width: 25%;">
-      <img src="/Images/App%20Main%20Page.jpg" alt="App Main Page" style="width: 100%;">
-      <p>App Main Page</p>
-    </td>
-    <td style="text-align: center; width: 25%;">
-      <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg" alt="Curved Path Navigation" style="width: 100%;">
-      <p>Curved Path Navigation</p>
-    </td>
-    <td style="text-align: center; width: 25%;">
-      <img src="/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg" alt="Straight Path Navigation" style="width: 100%;">
-      <p>Straight Path Navigation</p>
-    </td>
-    <td style="text-align: center; width: 25%;">
-      <img src="/Images/Destination%20-%20Parking%20Sign.jpg" alt="Destination Marker Placement" style="width: 100%;">
-      <p>Destination Marker Placement</p>
-    </td>
-  </tr>
-</table>
-
-
+   
+| ![alt text](/Images/App%20Main%20Page.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20curved%20path.jpg) | ![alt text](/Images/Interactive%20route%20navigation%20%E2%80%93%20straight%20path.jpg) | ![alt text](/Images/Destination%20-%20Parking%20Sign.jpg) |
+| :------: | :------: | :------: | :------: |
+|     App Main Page     | Curved Path Navigation | Straight Path Navigation | Destination Marker Placement |
 
 <!-- <img src="/Images/Navigation%20Sample%202.jpg" alt="Navigation Sample 2" height="300"> -->   
 
+## Limitations
+
+The experiments conducted to evaluate the proposed system have provided valuable insights. While the system generally performs well in accurately placing visual cues and providing interactive driving guidance, there are challenges related to reliability and stability, particularly in localization and object placement. The limitations of VPS technology in highways and roads, as well as high-speed driving scenarios, also highlight the need for further improvement.
     
-# Citation
+## Citation
 
 ```bibtex
 @misc{kimia2023arbased,
