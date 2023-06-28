@@ -500,7 +500,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
             GeospatialAnchorToggle.gameObject.SetActive(false);
             TerrainAnchorToggle.gameObject.SetActive(false);
             ClearAllButton.gameObject.SetActive(false);
-            DebugText.gameObject.SetActive(Debug.isDebugBuild && EarthManager != null);
+            //DebugText.gameObject.SetActive(Debug.isDebugBuild && EarthManager != null);
             GeometryToggle.onValueChanged.AddListener(OnGeometryToggled);
             AnchorSettingButton.onClick.AddListener(OnAnchorSettingButtonClicked);
             GeospatialAnchorToggle.onValueChanged.AddListener(OnGeospatialAnchorToggled);

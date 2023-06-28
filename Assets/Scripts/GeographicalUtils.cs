@@ -7,46 +7,36 @@ public static class GeographicalUtils
 
     public static float GetHeading(Vector2d start, Vector2d end)
     {
-        float orgLat = (float)start.x;
-        float orgLon = (float)start.y;
+        double orgLat = start.x;
+        double orgLon = start.y;
 
-        float destLat = (float)end.x;
-        float destLon = (float)end.y;
+        double destLat = end.x;
+        double destLon = end.y;
 
 
-        float λ = destLon - orgLon;
+        // Convert latitude and longitude to radians
+        orgLat = Math.PI * orgLat / 180;
+        destLat = Math.PI * destLat / 180;
+        orgLon = Math.PI * orgLon / 180;
+        destLon = Math.PI * destLon / 180;
 
-        var y = Mathf.Sin(λ) * Mathf.Cos(destLat);
-        var x = Mathf.Cos(orgLat) * Mathf.Sin(destLat) -
-            Mathf.Sin(orgLat) * Mathf.Cos(destLat) * Mathf.Cos(λ);
-        float brng = Mathf.Rad2Deg * Mathf.Atan2(y, x);
-        if (brng < 0)
+        // Calculate X and Y
+        double x = Math.Cos(destLat) * Math.Sin(destLon - orgLon);
+        double y = Math.Cos(orgLat) * Math.Sin(destLat) - Math.Sin(orgLat) * Math.Cos(destLat) * Math.Cos(destLon - orgLon);
+
+        // Calculate bearing
+        float bearing = (float)Math.Atan2(x, y);
+
+        // Convert bearing to degrees
+        bearing = (float)(bearing * 180 / Math.PI);
+
+        // Normalize bearing to between 0 and 360 degrees
+        if (bearing < 0)
         {
-            brng = 360 + brng;
+            bearing += 360;
         }
-        float compassBrng = Input.compass.trueHeading;
-        Debug.Log($"In GetHeading, bearing: {brng}");
-        Debug.Log($"In GetHeading, diff compass bearing: { brng - compassBrng}");
-        // chatgpt method
-        float latitudeA = (float)start.x;  // Latitude of the first coordinate
-        float longitudeA = (float)start.y; // Longitude of the first coordinate
-        float latitudeB = (float)end.x;  // Latitude of the second coordinate
-        float longitudeB = (float)end.y; // Longitude of the second coordinate
 
-        float latitudeARad = Mathf.Deg2Rad * latitudeA;
-        float longitudeARad = Mathf.Deg2Rad * longitudeA;
-        float latitudeBRad = Mathf.Deg2Rad * latitudeB;
-        float longitudeBRad = Mathf.Deg2Rad * longitudeB;
-        float deltaLongitudeRad = longitudeBRad - longitudeARad;
-
-        y = Mathf.Sin(deltaLongitudeRad) * Mathf.Cos(latitudeBRad);
-        x = Mathf.Cos(latitudeARad) * Mathf.Sin(latitudeBRad) - Mathf.Sin(latitudeARad) * Mathf.Cos(latitudeBRad) * Mathf.Cos(deltaLongitudeRad);
-
-        float headingRad = Mathf.Atan2(y, x);
-        float headingDeg = Mathf.Rad2Deg * headingRad;
-        //Debug.Log($"In GetHeading, Chat gpt bearing: {headingDeg}");
-
-        return (brng - compassBrng);
+        return bearing;
     }
 
     public static Vector2d[] GetPointsBetweenCoordinates(Vector2d start, Vector2d end, int numPoints)
